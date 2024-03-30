@@ -1,0 +1,45 @@
+<html>
+<head>
+    <style>
+        table {
+            border: 5px solid black;
+        }
+
+        th,
+        td {
+            border: 3px solid grey;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table align=center cellspacing="8" cellpadding="10">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Arun</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Subi</td>
+                <td>26</td>
+            </tr>
+            <?php
+            echo "<tr>
+<td>3</td>
+<td>Priya</td>
+<td>28</td>
+</tr>";
+            ?>
+        </tbody>
+    </table>
+</body>
+</html>
